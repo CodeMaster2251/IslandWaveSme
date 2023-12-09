@@ -196,9 +196,9 @@ h2 { margin-top: 0; }
     display: inline-block;
 }
 .tm-footer-image { 
-    padding-top: -2%;
+    position: inherit;
     left:13%;
-    position: absolute;
+    display: inline-block;
     
  }
 
