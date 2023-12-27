@@ -176,6 +176,47 @@ h2 { margin-top: 0; }
     background-color: #099;
 }
 
+.gallery1 h2{
+  text-align: center;
+  color:#099;
+  margin: 10px 5px 10px;
+  padding-bottom: 20px;
+}
+.gallery1{
+  
+  margin: 10px 10px;
+  padding-left: 28px;
+  justify-content: center;
+  
+
+ 
+}
+.gallery1 img{
+  width: 120px;
+  height: 180px;
+  justify-content: center;
+  transition: 0.5s;
+  padding: 2px;
+  background-color: grey;
+}
+.gallery1 img:hover{
+  filter: grayscale(80%);
+  transform: scale(1.08);
+}
+ 
+
+.gallery img{
+  width: 230px;
+  padding: 1px;
+  transition: 0.5s;
+  background-color: grey;
+  height: 230px;
+}
+.gallery img:hover{
+  filter: grayscale(80%);
+  transform: scale(1.02);
+}
+
 .tm-list-item-img-big {
     margin-right: 25px;
     width: 200px;
